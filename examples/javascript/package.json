@@ -1,0 +1,14 @@
+{
+  "name": "ceph-s3-client",
+  "version": "1.0.0",
+  "description": "Ceph S3 API client using AWS SDK",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.525.0",
+    "@aws-sdk/credential-providers": "^3.525.0"
+  }
+} 

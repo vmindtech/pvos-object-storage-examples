@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mertongengil/development/pvos-object-storage-examples/examples/dotnet-core/CephSwiftClient/CephSwiftClient.csproj": {}
+  },
+  "projects": {
+    "/Users/mertongengil/development/pvos-object-storage-examples/examples/dotnet-core/CephSwiftClient/CephSwiftClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mertongengil/development/pvos-object-storage-examples/examples/dotnet-core/CephSwiftClient/CephSwiftClient.csproj",
+        "projectName": "CephSwiftClient",
+        "projectPath": "/Users/mertongengil/development/pvos-object-storage-examples/examples/dotnet-core/CephSwiftClient/CephSwiftClient.csproj",
+        "packagesPath": "/Users/mertongengil/.nuget/packages/",
+        "outputPath": "/Users/mertongengil/development/pvos-object-storage-examples/examples/dotnet-core/CephSwiftClient/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mertongengil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.4/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.305.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.4/libexec/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
