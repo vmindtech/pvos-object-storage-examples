@@ -14,6 +14,13 @@ The examples demonstrate how to use AWS SDKs to interact with Portvmind Object S
 
 ## Available Examples
 
+### AWS CLI Example
+Located in `examples/aws-cli/`
+- Uses AWS CLI version 2.x (tested with aws-cli/2.26.6 Python/3.13.3 Darwin/23.2.0 source/arm64)
+- Includes both basic and advanced S3 operations
+- Provides a complete test script
+- Requires AWS CLI 2.0.0 or higher
+
 ### Java Example
 Located in `examples/java/ceph-s3-client/`
 - Uses AWS SDK for Java 2.x
@@ -36,7 +43,11 @@ Located in `examples/golang/ceph-s3-client/`
 
 - Portvmind Object Storage with S3 API enabled
 - S3 API credentials (access key and secret key)
-- Required development tools for each language (JDK, Node.js, Go)
+- Required development tools for each language:
+  - AWS CLI 2.0.0 or higher
+  - JDK 11 or higher
+  - Node.js 14 or higher
+  - Go 1.16 or higher
 
 ## Configuration
 
@@ -52,6 +63,13 @@ Each example requires the following configuration:
 Update these values in the respective example's configuration file before running.
 
 ## Running the Examples
+
+### AWS CLI Example
+```bash
+cd examples/aws-cli
+chmod +x test-s3-operations.sh
+./test-s3-operations.sh
+```
 
 ### Java Example
 ```bash
